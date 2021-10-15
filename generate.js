@@ -24,10 +24,10 @@ const newPassword = document.getElementById("result");
 // MAIN METHOD
 // ---------------------------
 function generatePassword() {
-    // Get All Selected Options
+    // Get All Selected Options (add all selected global strings into one giant string)
     var randChars = mergeSelectionStrings();
 
-    // Get Length
+    // Get length of new password
     var genLength = parseInt(document.getElementById("length").value);
 
     // Generate Password
